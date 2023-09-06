@@ -146,6 +146,60 @@ If you need to download Virtualbox go to https://www.virtualbox.org/ and you can
 
 <img width="1017" alt="Screen Shot 2023-09-02 at 12 39 42 PM" src="https://github.com/Prevail24/ADlabBuild/assets/47503200/ec6e0b67-d4e5-4668-b399-2334337c5b55">
 
-36
+36. First we will change the name of our machine, in the search bar at the bottom type in 'name'. Select the 'View your PC name' option that pops up.
 
+![Screen Shot 2023-09-06 at 11 48 42 AM](https://github.com/Prevail24/ADlabBuild/assets/47503200/8b126730-6900-4457-b508-df922670779e)
 
+37. Now select the 'Rename this PC' button.
+
+![Screen Shot 2023-09-06 at 11 50 23 AM](https://github.com/Prevail24/ADlabBuild/assets/47503200/bb28ad1a-6ad8-40ab-b0ed-23309b869dca)
+
+38. Now I will rename this 'DomainController-2022-DC' which will make things much easier when we have several machines connected to our network. then click 'Next'
+
+![Screen Shot 2023-09-06 at 11 54 40 AM](https://github.com/Prevail24/ADlabBuild/assets/47503200/4d8ee358-9e2d-4803-856d-c811f90958af)
+
+39. Now we will have to restart the machine in order for the changes to take effect. Let's do that now. Select the 'Restart now' button
+
+![Screen Shot 2023-09-06 at 11 59 23 AM](https://github.com/Prevail24/ADlabBuild/assets/47503200/6796b291-1153-4159-a1e6-ccda9087092d)
+
+40. Once our machine restarts, on the top menu bar, select the 'Manage' button and from the dropdown menu select the 'Add Roles and Features' option;
+
+![Screen Shot 2023-09-06 at 11 34 11 AM](https://github.com/Prevail24/ADlabBuild/assets/47503200/87119633-94da-4b5c-9f31-a765708f3150)
+
+41. Now select the 'Next' button on the following three screens as shown below;
+
+![Screen Shot 2023-09-06 at 11 41 04 AM](https://github.com/Prevail24/ADlabBuild/assets/47503200/32b4fc77-6b24-4b8c-911b-8834313e76c5)
+![Screen Shot 2023-09-06 at 11 44 18 AM](https://github.com/Prevail24/ADlabBuild/assets/47503200/0514e9e2-d438-4288-89df-5cf868128090)
+![Screen Shot 2023-09-06 at 12 08 11 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/cce9980b-ce7d-427c-9068-85ac6f32a93c)
+
+42. On the fourth screen, check the 'Active Directory Domain Services' box which will allow us to have our domain. This is commonly referred to as A.D.D.S.
+
+![Screen Shot 2023-09-06 at 12 09 47 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/bdb07261-9b68-4a24-949c-1914c9dcf76a)
+
+43. On the pop-up Wizard select 'Add Features' as seen below;
+
+![Screen Shot 2023-09-06 at 12 13 24 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/c6366466-0c76-4444-b5f4-8dedaeb06d41)
+
+44. Now click the 'Next' button;
+
+![Screen Shot 2023-09-06 at 12 16 00 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/c3fc0942-5183-45d6-91a9-b4622175b0d8)
+
+45. On the Confirm installations selections window, check the 'Restart the destination server automatically if required' box and select the 'Yes' box on the pop-up window as seen below.
+
+![Screen Shot 2023-09-06 at 12 19 02 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/b40f8159-ad85-460a-8744-616b92746e15)
+
+46. Now click 'Install'. Now its going to install our domain controller. After the install is finished move on to the next step.
+
+![Screen Shot 2023-09-06 at 12 42 05 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/b2f133ff-77e5-448a-83aa-db643b48fb5d)
+
+47.
+
+48.
+
+49.
+
+50.
+
+51.
+
+52.
