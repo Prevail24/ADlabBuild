@@ -242,6 +242,6 @@ If you need to download Virtualbox go to https://www.virtualbox.org/ and you can
 
 ![Screen Shot 2023-09-06 at 1 33 19 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/7fe5afc0-8faa-4080-b476-14e2addf3ef2)
 
-59.
+59. Now, if you would like to run attacks on the AD network, the last thing we will need to set up, will be what is called 'Certificate Services'
 
 60. 
