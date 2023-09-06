@@ -192,16 +192,56 @@ If you need to download Virtualbox go to https://www.virtualbox.org/ and you can
 
 ![Screen Shot 2023-09-06 at 12 42 05 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/b2f133ff-77e5-448a-83aa-db643b48fb5d)
 
-47. Now its going to install our domain controller. After the installation is finished move on to the next step.
+47. Now it will install our domain controller. After the installation is finished, move on to the next step.
 
 ![Screen Shot 2023-09-06 at 12 44 48 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/536f1934-559a-40da-b942-3f5414884027)
+![Screen Shot 2023-09-06 at 12 51 59 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/6f86d433-4b57-4a9d-8e12-b91e8ebf4d54)
 
-48.
+48. Now select the 'Promote this server to a domain controller' option. You can also click on the flag on the top menu bar and change it that way.
 
-49.
+<img width="1819" alt="Screen Shot 2023-09-06 at 12 54 04 PM" src="https://github.com/Prevail24/ADlabBuild/assets/47503200/814c5807-d68a-42e6-b96d-0eb017447d28">
+![Screen Shot 2023-09-06 at 12 57 30 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/e0131794-ca32-40d2-82e2-4dd34d8f4666)
 
-50.
+49. Next we will select the 'Add a new forest' option and to keep it simple with the naming conventions will be calling this FOREST.local. Select next and will take a moment to load.
 
-51.
+![Screen Shot 2023-09-06 at 1 00 19 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/cad220f0-ad2e-4164-a9d6-e845224d2fea)
 
-52.
+50. On the 'Domain Controller Options' Wizard window, you can enter the same password as the admin account to keep it simple, and select 'Next'. The password is 'Password123'. You will want a much stronger password if setting this up for real use.
+
+![Screen Shot 2023-09-06 at 1 05 30 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/b0b62fcb-cf11-4f3c-a039-bb3eb3c2c102)
+
+51. On the following window select 'Next'
+
+![Screen Shot 2023-09-06 at 1 09 31 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/ad12b5fc-e523-4089-b91d-9e5e09c0a324)
+
+52. Now our name will take a second to load on our NetBIOS, once that is finished select 'Next';
+
+![Screen Shot 2023-09-06 at 1 20 04 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/3bd77ed5-cbce-426f-a1ac-a6290f121dc9)
+
+53. On the following screen, select 'Next';
+
+![Screen Shot 2023-09-06 at 1 21 34 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/7bb59c55-6d4a-4a01-80d3-f0c39e7be177)
+
+54. On the following screen, select 'Next';
+
+![Screen Shot 2023-09-06 at 1 22 57 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/0eef3fac-8b66-4c58-a1a9-505a12f75d81)
+
+55. It will now review the prerequisites and once you see the green check mark at the top it is complete;
+
+![Screen Shot 2023-09-06 at 1 25 15 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/305fed5e-2bfa-4c34-98c1-4c513baedecb)
+
+56. Now click the install button at the bottom;
+
+![Screen Shot 2023-09-06 at 1 25 15 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/5aece20a-95aa-45bb-83bd-c59c6b1759e1)
+
+57. Now it will install and after a moment we will need to restart our machine and we will then be able to login to our new Domanin Controller!
+
+![Screen Shot 2023-09-06 at 1 28 41 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/ae6795df-66a0-43c6-b719-c889a7d4f00d)
+
+58. After the machine reboots, you will see that we will be able to login to the FOREST/Administrator 
+
+![Screen Shot 2023-09-06 at 1 33 19 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/7fe5afc0-8faa-4080-b476-14e2addf3ef2)
+
+59.
+
+60. 
