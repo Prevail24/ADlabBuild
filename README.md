@@ -1,10 +1,10 @@
-# ADlabBuild
+# ActiveDerectoryLabBuild
 A walkthrough of how I built and set up a Free Microsoft AD lab using Windows Server 2022 and Windows Enterprise 10 and 11 onto Oracle VM VirtualBox and VMware Workstation
 
 
 Lab Requirements
 1 Windows Server
-2 Windows Workstations (1 Windows 10 Enterprise and 1 Windows 11 Enterprise)
+2 Windows Workstations (2 Windows 10 Enterprise Workstations)
 60 GB Disk Space
 16 GB RAM
 
