@@ -188,11 +188,13 @@ If you need to download Virtualbox go to https://www.virtualbox.org/ and you can
 
 ![Screen Shot 2023-09-06 at 12 19 02 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/b40f8159-ad85-460a-8744-616b92746e15)
 
-46. Now click 'Install'. Now its going to install our domain controller. After the install is finished move on to the next step.
+46. Now click 'Install'. 
 
 ![Screen Shot 2023-09-06 at 12 42 05 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/b2f133ff-77e5-448a-83aa-db643b48fb5d)
 
-47.
+47. Now its going to install our domain controller. After the installation is finished move on to the next step.
+
+![Screen Shot 2023-09-06 at 12 44 48 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/536f1934-559a-40da-b942-3f5414884027)
 
 48.
 
