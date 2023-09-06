@@ -1,5 +1,5 @@
 # ActiveDerectoryLabBuild
-A walkthrough of how I built and set up a Free Microsoft AD lab using Windows Server 2022 and Windows Enterprise 10 and 11 onto Oracle VM VirtualBox and VMware Workstation
+A walkthrough of how to build and set up a Free Microsoft AD lab (1 Domain Controller and 2 Windows Workstations) using Windows Server 2022 and Windows Enterprise 10 onto an Oracle VM VirtualBox
 
 
 Lab Requirements
@@ -242,6 +242,4 @@ If you need to download Virtualbox go to https://www.virtualbox.org/ and you can
 
 ![Screen Shot 2023-09-06 at 1 33 19 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/7fe5afc0-8faa-4080-b476-14e2addf3ef2)
 
-59. Now, if you would like to run attacks on the AD network, the last thing we will need to set up, will be what is called 'Certificate Services'
-
-60. 
+59. That is it for this part of the Domain Controller setup. We will now move on to setting up our user Workstations.
