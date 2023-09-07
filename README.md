@@ -422,18 +422,42 @@ Again, This guide will walk you through only one workstation as this is already 
 
 ![Screen Shot 2023-09-07 at 4 11 44 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/cc029e2d-eb6b-4b5a-988c-6e927371bbff)
 
-14. On this screen you can enter the user name of the person using this. here i will enter my name to keep it simple. Select next and enter your password.
+14. On this screen you can enter the user name of the person using this. here i will enter my name to keep it simple. Select next and enter your password and the confirm it;
 
 ![Screen Shot 2023-09-07 at 4 15 43 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/400f9b23-fb95-479e-939e-14ab39ba8bfb)
 ![Screen Shot 2023-09-07 at 4 16 39 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/7fa9086f-79e0-4de8-a581-209e5c670b6f)
+![Screen Shot 2023-09-07 at 4 17 15 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/88ea9aff-d102-40c1-8754-0273bf5a1191)
 
+15. Now select your security questions.
 
+![Screen Shot 2023-09-07 at 4 18 17 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/d0e9932c-0cec-4aa4-a16c-79c15862dfa7)
 
+16. Next, because this is just a Lab build meant to learn and experiment and to even break-in, we will turn all the privacy settings to 'No' and click accpet
 
+![Screen Shot 2023-09-07 at 4 20 43 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/1030152c-aed0-4c7a-82b4-e0a0659fa90b)
 
+17. Now click 'Not now' for the Cortana settings.
 
+![Screen Shot 2023-09-07 at 4 21 40 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/c43e39cc-20a8-461e-9c16-3b0b9047ff70)
 
+18. Now this will take several mins. Take this time to do the same steps with your second workstation, using a different username.
+19. Once it loads we will now change the PC name just like before. Type in 'name' in the bottom search bar and select 'View your PC name' from the option at the top;
 
+![Screen Shot 2023-09-07 at 4 30 09 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/e8638571-ea2c-4605-a5d6-57ca7bdff90c)
+
+21. Select 'Rename this PC'
+
+![Screen Shot 2023-09-07 at 4 31 47 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/f3543224-584f-4f4e-a825-a6d1a6792490)
+
+22. Name it what you would like it to be.
+
+![Screen Shot 2023-09-07 at 4 33 28 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/0acfbf63-51e2-43e9-b043-3f7b9c6d5d84)
+
+23. We will now restart our machine for the changes to take effect;
+
+![Screen Shot 2023-09-07 at 4 34 03 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/90246c94-7c87-42c1-be14-06c0ad22328b)
+
+24. Great job, If you did everything correctly you will now have two user workstations that are ready to connect to the domain controller.
 
 
 
