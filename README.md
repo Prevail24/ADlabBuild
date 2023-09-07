@@ -356,4 +356,59 @@ If you need to download Virtualbox go to https://www.virtualbox.org/ and you can
 ![Screen Shot 2023-09-06 at 1 33 19 PM](https://github.com/Prevail24/ADlabBuild/assets/47503200/7fe5afc0-8faa-4080-b476-14e2addf3ef2)
 -
 
-59. That is it for this part of the Domain Controller setup. We will now move on to setting up our user Workstations.
+59. That is it for this part of the Domain Controller setup. You can now shut down the domain controller. We will now move on to setting up our two identical (almost!) user Workstations.
+
+
+-
+-
+*********************
+Part 2
+*********************
+-
+-
+
+*** Here we will be setting up two identical user workstations. I will not show the steps to the second machine as they are the exact same aside from the user name. 
+If your computer has enough power and memory you can install both at the same time. aside from the name of the machine you will run this next part twice! If not you will have to run each one separately. 
+Again, This guide will walk you through only one workstation as this is already a long walk-through.  ***
+
+1. We will now start a new VM from our Oracle VirtualBox. Once again Select the 'New' button on the top menu
+
+![Screen Shot 2023-09-07 at 3 15 51 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/85bef7e4-9031-40ad-a54a-f9ac71fc5e34)
+
+2. We will name this machine User1 to keep it simple. Select the Windows 10 ISO image, and it should be recognized as Windows 10 and it will fill in the rest for us.
+
+![Screen Shot 2023-09-07 at 3 21 03 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/8607ea56-4195-4bc1-83c5-5beea1fbeed3)
+
+3. I will be giving this machine 4MB RAM to start and not change the rest of the settings. Use the appropriate amount for your machine based on your computer specs. You can use 2MB and that will be fine.
+
+![Screen Shot 2023-09-07 at 3 25 25 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/3f06a315-a53f-4264-833f-edd1e64a3bd2)
+
+4. Now we will have to change the storage from the top menu and remove the Floppy drive by clicking the little hard-disk icon on the side as shown below;
+
+![Screen Shot 2023-09-07 at 3 29 53 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/48a3aa2d-cccc-4544-bea5-1565303a706e)
+
+5. Now Select the Start button on the top menu bar. After it loads we will be taken through the setup similar to the server we did previously. Select Next, and then Select the 'Install Now' button
+
+![Screen Shot 2023-09-07 at 3 33 50 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/ba9e59a0-85e3-4b6e-9c07-7150ec321364)
+![Screen Shot 2023-09-07 at 3 35 31 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/c0a53cf2-a0d3-47d4-8e18-c6c0d9915140)
+
+6. Accept the terms and click next
+
+![Screen Shot 2023-09-07 at 3 40 29 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/8a1726f3-a5ca-49b2-86a8-d52cc7786698)
+
+7. Select 'Custom Install' just as before with our domain controller.
+
+![Screen Shot 2023-09-07 at 3 43 54 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/088317fe-8a42-4929-bf6e-d997d3a32672)
+
+8. Select the 'New' button with the star next to it, then click Apply when the size option pops up, then select 'OK' on the pop-up window;
+
+![Screen Shot 2023-09-07 at 3 45 24 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/65723603-0325-4535-8a8c-f1f41dbc4788)
+![Screen Shot 2023-09-07 at 3 47 12 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/f20afc86-101c-41e9-ac1a-4d01ce4dd6f6)
+
+9. Now click 'Next';
+
+![Screen Shot 2023-09-07 at 3 49 07 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/c86cf4f1-2331-47c5-9973-240cc4e721d9)
+
+10. It will now begin Installing and will take a few moments. You can take this time to start and do the exact same steps on your second User workstation if you would like. I will be calling mine, you guessed it! User2
+
+11. 
