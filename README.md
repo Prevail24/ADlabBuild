@@ -410,5 +410,32 @@ Again, This guide will walk you through only one workstation as this is already 
 ![Screen Shot 2023-09-07 at 3 49 07 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/c86cf4f1-2331-47c5-9973-240cc4e721d9)
 
 10. It will now begin Installing and will take a few moments. You can take this time to start and do the exact same steps on your second User workstation if you would like. I will be calling mine, you guessed it! User2
+11. Once it finishes installing select your Region.
 
-11. 
+![Screen Shot 2023-09-07 at 4 04 58 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/45754ee8-6f0f-4d9e-90e3-a1efe7570aaf)
+
+12. Select you Keyboard layout. If you dont know, select US, then skip the second layout screen;
+
+![Screen Shot 2023-09-07 at 4 06 42 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/d9b7b181-2b7a-4d21-9948-a1e01e871090)
+
+13. You will be brought to a screen where you can enter an email address as seen below. Select 'Domain join instead' at the bottom
+
+![Screen Shot 2023-09-07 at 4 11 44 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/cc029e2d-eb6b-4b5a-988c-6e927371bbff)
+
+14. On this screen you can enter the user name of the person using this. here i will enter my name to keep it simple. Select next and enter your password.
+
+![Screen Shot 2023-09-07 at 4 15 43 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/400f9b23-fb95-479e-939e-14ab39ba8bfb)
+![Screen Shot 2023-09-07 at 4 16 39 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/7fa9086f-79e0-4de8-a581-209e5c670b6f)
+
+
+
+
+
+
+
+
+
+
+
+
+
