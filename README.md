@@ -460,7 +460,9 @@ Again, This guide will walk you through only one workstation as this is already 
 
 24. Great job, If you did everything correctly you will now have two user workstations that are ready to connect to the domain controller.
 
-We will now be setting up the Users, Groups and Policies.
+25. Shut down the user machines and start up the Domain Controller
+
+We will now be setting up the Users, Groups and Policies. (This is a great place to pause and take a break if needed)
 
 
 
