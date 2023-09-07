@@ -454,6 +454,7 @@ Again, This guide will walk you through only one workstation as this is already 
 ![Screen Shot 2023-09-07 at 4 33 28 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/0acfbf63-51e2-43e9-b043-3f7b9c6d5d84)
 
 23. We will now restart our machine for the changes to take effect;
+24. Remember to do the same with the second user machine.
 
 ![Screen Shot 2023-09-07 at 4 34 03 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/90246c94-7c87-42c1-be14-06c0ad22328b)
 
