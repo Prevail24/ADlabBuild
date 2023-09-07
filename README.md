@@ -1,4 +1,4 @@
-# ActiveDerectoryLabBuild
+# Active Derectory Lab Build
 A walkthrough of how to build and set up a Free Microsoft AD lab (1 Domain Controller and 2 Windows Workstations) using Windows Server 2022 and Windows Enterprise 10 onto an Oracle VM VirtualBox
 
 
