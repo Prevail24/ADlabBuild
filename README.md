@@ -1,4 +1,4 @@
-# Active Derectory Lab Build
+# Active Directory Lab Build
 A walkthrough of how to build and set up a Free Microsoft AD lab (1 Domain Controller and 2 Windows Workstations) using Windows Server 2022 and Windows Enterprise 10 onto an Oracle VM VirtualBox
 
 
@@ -464,6 +464,77 @@ Again, This guide will walk you through only one workstation as this is already 
 
 We will now be setting up the Users, Groups and Policies. (This is a great place to pause and take a break if needed)
 
+-
+-
+-
 
+************
+Part 3 - Setting up Users, Groups and Policies
+************
 
+-
+-
+-
 
+1. Start up your Domain Controller machine. On the top menu bar, we will go to 'Tools' and then Select 'Active Directory Users and Computers';
+
+![Screen Shot 2023-09-08 at 3 54 51 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/b0eb8584-7a87-4274-8d05-3a47c145bd9b)
+
+2. Now, select the name you've chosen with the .local, Mine is named FOREST.local as shown below;
+
+![Screen Shot 2023-09-08 at 3 57 56 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/0e87ba39-c90a-4be4-9fe2-9e45bdcb45a4)
+
+3. Next we will right-click on the FOREST.local (or whatever yours is named) and hover over 'New' and go into the menu it opens, and select the 'Organizational Unit' 
+
+![Screen Shot 2023-09-08 at 4 03 08 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/01789e4d-008a-44e5-8d84-b96c0da50449)
+
+4. We will call this 'Groups'. Now Select 'OK';
+
+![Screen Shot 2023-09-08 at 4 04 21 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/204c1c7c-f308-4c15-aac4-a3d2d0e6097d)
+
+5. Next click on the Users file, We will be taking all the Types with 'Security Group' and moving them into the Groups folder we just created, leaving the two users Administrator and Guest in the Users folder, once you move them select 'Yes' on the pop-up window;
+![Screen Shot 2023-09-08 at 4 18 34 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/12daad94-5808-487b-87aa-31574b575ed2)
+![Screen Shot 2023-09-08 at 4 19 32 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/9317ba5e-ee7c-4733-bfe7-5024047b622b)
+![Screen Shot 2023-09-08 at 4 20 25 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/1d94fc07-f185-4387-ab31-c444cc36379b)
+
+6. Now we will create another Admin account, so right-click on the Administrator and select 'Copy...' at the top as shown below;
+   
+![Screen Shot 2023-09-08 at 4 24 23 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/6a82008b-dd5e-48ac-98fc-93881261234e)
+
+7. Now you can enter in your name, or a made-up one, or even a character from a movie here. I will go with Elon Musk, once you've done this click 'Next', enter a password and select 'Next' once more and then select 'Finish'.
+
+![Screen Shot 2023-09-08 at 4 27 26 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/8a81a74f-5cd5-42db-ac2f-b0982739f205)
+![Screen Shot 2023-09-08 at 4 32 18 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/cd09308c-3f41-481e-b070-31e1209de62c)
+![Screen Shot 2023-09-08 at 4 33 09 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/b2603e6b-7755-4854-91cf-24d3598f588f)
+
+8. Next we will create a new User in our group. Right-click in the white space below the Guest account, click on 'New' and select 'User' as shown below;
+
+![Screen Shot 2023-09-08 at 4 37 50 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/08f2ecc9-3081-4a85-abeb-714c9571a52a)
+
+9. Now enter in a new name. Whatever you would like. I will be entering in Iron Man, selecting your password, and make sure to adjust the password settings on the bottom or you will have to change it at the next login. Then select Finish
+
+![Screen Shot 2023-09-08 at 4 40 26 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/518a1140-f091-4e40-8233-db213e039eb4)
+![Screen Shot 2023-09-08 at 4 42 11 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/c62123cc-61f2-484c-9826-8a3bbb6323b5)
+![Screen Shot 2023-09-08 at 4 43 14 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/ae2e620a-7f48-4246-b565-5ccd066f1101)
+
+10. Now you should have 4 accounts in the user folder. two built-in and the two we created.
+
+![Screen Shot 2023-09-08 at 4 44 35 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/6a4c3679-e03e-4320-99fe-6ad983012fe3)
+
+11. Next we will need to find the IP address of our Domain Controller, so at the Bottom search bar, type in 'cmd' and select the 'Command Prompt' at the top of the search.
+
+![Screen Shot 2023-09-08 at 4 48 39 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/21062ff0-09e7-41c1-8b0f-b2c03fb08d80)
+
+12. Now in our terminal, type in 'ipconfig' and hit enter.
+
+![Screen Shot 2023-09-08 at 4 49 54 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/b3d137bb-3f8c-4bb0-9e52-09cf3e834e2c)
+
+13. Now make a note of the IP addresses shown.
+
+![Screen Shot 2023-09-08 at 4 54 48 PM](https://github.com/Prevail24/ActiveDirectoryLabBuild/assets/47503200/f9c6f9c4-683e-4d55-91bd-0578d5cca786)
+
+Now we will move onto connecting the User machines to the network.
+
+****************
+Part 4 - Joining the User Machines to the Domain Controller
+****************
